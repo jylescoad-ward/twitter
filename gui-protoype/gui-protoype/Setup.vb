@@ -9,12 +9,12 @@
         End If
         Dim file As System.IO.StreamWriter
         file = My.Computer.FileSystem.OpenTextFileWriter(main.config_location, True)
-        file.WriteLine("{")
+        file.WriteLine("[")
         file.WriteLine("""" & apikey.Text & """,")
         file.WriteLine("""" & apisecret.Text & """,")
         file.WriteLine("""" & accesskey.Text & """,")
         file.WriteLine("""" & accesstoken.Text & """")
-        file.WriteLine("}")
+        file.WriteLine("]")
         file.Close()
     End Sub
 End Class

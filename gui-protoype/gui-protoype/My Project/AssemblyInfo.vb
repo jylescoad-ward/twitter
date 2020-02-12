@@ -10,7 +10,7 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("DARiOX Basic Twitter Client")>
-<Assembly: AssemblyDescription("A Basic Twitter Client Made for DARiOX Social Media Managers.")>
+<Assembly: AssemblyDescription("A Basic Twitter Client Made for DARiOX Social Media Managers. For more information do no hesitate to email us at; contact@dariox.club")>
 <Assembly: AssemblyCompany("DARiOX Software")>
 <Assembly: AssemblyProduct("DARiOX Basic Twitter Client")>
 <Assembly: AssemblyCopyright("Copyright ©  2020")>
@@ -32,6 +32,6 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("1.0.0.0")>
-<Assembly: AssemblyFileVersion("1.0.0.0")>
+<Assembly: AssemblyVersion("1.2.1.0")>
+<Assembly: AssemblyFileVersion("1.2.1.0")>
 <Assembly: NeutralResourcesLanguage("")>

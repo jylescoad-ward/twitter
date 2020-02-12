@@ -10,6 +10,8 @@ Public Class main
     Public script_location_textonly = src_dir & "\text.js"
     Public script_location_both = src_dir & "\text_andor_file.js"
 
+    Public config_location = src_dir & "\config.json"
+
     Public tweetLink
 
     Public tweetAttachmentLocation

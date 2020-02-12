@@ -120,7 +120,6 @@ Partial Class main
         '
         'SetupButtom
         '
-        Me.SetupButtom.Enabled = False
         Me.SetupButtom.Font = New System.Drawing.Font("Free Pixel", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SetupButtom.Location = New System.Drawing.Point(466, 60)
         Me.SetupButtom.Name = "SetupButtom"

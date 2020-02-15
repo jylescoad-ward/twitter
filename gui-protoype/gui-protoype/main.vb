@@ -162,7 +162,9 @@ Public Class main
     End Sub
     Sub ShowLinkTimer_Tick(sender As Object, e As EventArgs) Handles ShowLinkTimer.Tick
         tweet_link_label.Text = tweetLink
-        My.Computer.FileSystem.DeleteFile(src_dir & "\content.tweet")
+        If System.IO.File.Exists(src_dir & "\content.tweet") Then
+            My.Computer.FileSystem.DeleteFile(src_dir & "\content.tweet")
+        End If
     End Sub
 
     'Basic Stuff

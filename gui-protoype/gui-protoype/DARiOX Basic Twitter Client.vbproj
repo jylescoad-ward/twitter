@@ -26,7 +26,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>false</MapFileExtensions>
     <TargetCulture>en-AU</TargetCulture>
-    <ApplicationRevision>16</ApplicationRevision>
+    <ApplicationRevision>17</ApplicationRevision>
     <ApplicationVersion>1.2.92.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
